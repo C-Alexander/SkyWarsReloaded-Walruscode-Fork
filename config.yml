@@ -55,6 +55,15 @@
 #  purchasePermanentKitsEnabled: true	//enables the Permanent Kit shop
 #  showKitItemsandPotionEffects: true   //when enabled, the items and potion effects are displayed in the kit info.
 #  doubleChestAlwaysOP: true		//when enabled, double chests are treated as OP chests (so you can have OP chests in the center of the map if you want)
+#gameSounds:
+#  playerJoinLobby: BLOCK_SLIME_STEP
+#  playerLeaveLobby: ENTITY_SLIME_ATTACK
+#  playerDeath: ENTITY_LIGHTNING_THUNDER
+#  playerWin: ENTITY_FIREWORK_LARGE_BLAST
+#  opChestVote: BLOCK_CHEST_OPEN
+#  timeVote: ENTITY_TNT_PRIMED
+#  weatherVote: ENTITY_PLAYER_SPLASH
+#  jumpVote: ENTITY_MAGMACUBE_JUMP
 #lobbyGuard:
 #  enabled: false	//If enabled the items below will be enforced if set to true.
 #  hungerDisabled: true  //Players will not lose hunger in lobby.
@@ -177,14 +186,14 @@ gameItems:
   glassLobbyMenuSlot: 6
   glassOptionsMenuSlot: 20
 gameSounds:
-  playerJoinLobby: SLIME_WALK2
-  playerLeaveLobby: SLIME_ATTACK
-  playerDeath: AMBIENCE_THUNDER
-  playerWin: FIREWORK_LARGE_BLAST
-  opChestVote: CHEST_OPEN
-  timeVote: FUSE
-  weatherVote: SPLASH
-  jumpVote: MAGMACUBE_JUMP
+  playerJoinLobby: BLOCK_SLIME_STEP
+  playerLeaveLobby: ENTITY_SLIME_ATTACK
+  playerDeath: ENTITY_LIGHTNING_THUNDER
+  playerWin: ENTITY_FIREWORK_LARGE_BLAST
+  opChestVote: BLOCK_CHEST_OPEN
+  timeVote: ENTITY_TNT_PRIMED
+  weatherVote: ENTITY_PLAYER_SPLASH
+  jumpVote: ENTITY_MAGMACUBE_JUMP
 lobbyGuard:
   enabled: false
   hungerDisabled: true
